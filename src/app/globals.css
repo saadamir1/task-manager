@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-100 text-gray-800 font-sans;
+  background-color: #fff;
+  color: #333;
+}
+
+.dark body {
+  background-color: #1a202c;
+  color: #f7fafc;
+}
+
+/* Example for other elements */
+.dark .bg-white {
+  background-color: #2d3748; /* Darker background */
+}
+
+.dark .text-gray-800 {
+  color: #edf2f7; /* Lighter text */
 }
